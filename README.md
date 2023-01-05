@@ -1,9 +1,9 @@
 # Jwt walkthrough
-    commit your work!!
+    commit your work!!!!
 
 ## create rails api  
 `rails new jwtapi --api`
-
+#
 # gemfile
 ## install bycrypt 
 `gem "bcrypt", "~> 3.1.7"`
@@ -12,7 +12,7 @@
 `gem "jwt"`
 #
 
-# Generate
+# Generators
 ## generate models 
 `use has_secure_password`
 
@@ -23,3 +23,9 @@
      create seeds
 `rails db:seed`
 
+#
+
+# Application controller
+    def encode_token(payload)
+        JWT.encode(payload, 'secret')
+    end 
