@@ -1,24 +1,19 @@
-# README
+# Jwt walkthrough
+    commit your work!!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## create rails api  
+`rails new jwtapi --api`
 
-Things you may want to cover:
+## install bycrypt
+`gem "bcrypt", "~> 3.1.7"`
 
-* Ruby version
+## generate models 
+`use has_secure_password`
 
-* System dependencies
+## generate migrations
+`rails db:migrate`
 
-* Configuration
+## seed data 
+     create seeds
+`rails db:seed`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
