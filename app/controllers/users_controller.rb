@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+
     # create user, validate then create the token
     def create
         @user = User.create(user_params)
