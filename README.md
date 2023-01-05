@@ -37,3 +37,8 @@
 # Routing
     config folder/routes.rb
     create a resource with only create route 
+#
+
+#  Login action
+    add login action in user controller
+    add login route in config/routes.rb
