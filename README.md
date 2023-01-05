@@ -17,7 +17,8 @@
 
 ## generate controller
     rails g controller users --no-test-framework
-
+    add a create action to register user
+     
 ## generate migrations
     rails db:migrate
 
@@ -31,3 +32,8 @@
     def encode_token(payload)
         JWT.encode(payload, 'secret')
     end 
+# 
+
+# Routing
+    config folder/routes.rb
+    create a resource with only create route 
