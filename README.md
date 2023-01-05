@@ -13,6 +13,7 @@
 
 # Generators
 ## generate models 
+    generate user model, with 
     use has_secure_password
 
 ## generate controller
@@ -21,11 +22,6 @@
      
 ## generate migrations
     rails db:migrate
-
-## seed data 
-    rails db:seed
-
-#
 
 # Application controller
 ## method to encode jwt 
