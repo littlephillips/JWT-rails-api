@@ -4,9 +4,15 @@
 ## create rails api  
 `rails new jwtapi --api`
 
-## install bycrypt
+# gemfile
+## install bycrypt 
 `gem "bcrypt", "~> 3.1.7"`
 
+## install jwt
+`gem "jwt"`
+#
+
+# Generate
 ## generate models 
 `use has_secure_password`
 
